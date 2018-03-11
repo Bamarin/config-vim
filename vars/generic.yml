@@ -1,0 +1,7 @@
+features:
+  - vim
+
+user:
+  name: paolo21
+
+# vim: set filetype=eruby.yml :

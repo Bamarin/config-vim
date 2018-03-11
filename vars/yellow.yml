@@ -1,0 +1,6 @@
+# => inherits: generic <= #
+
+text:
+  width: 100
+
+# vim: set filetype=eruby.yml :

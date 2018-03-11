@@ -1,0 +1,8 @@
+elems:
+
+- src: ^(vimrc)$
+  dst: ~/.<1>
+  only: f?vim
+
+
+# vim: set filetype=eruby.yaml :
