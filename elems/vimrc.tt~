@@ -77,6 +77,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'dracula/vim'
+Plugin 'JamshedVesuna/vim-markdown-preview'
 " if has('nvim')
 "   Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " else
@@ -112,6 +113,7 @@ set secure
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set textwidth=<%= get_var! 'text.width' %>
 set noexpandtab
 set showcmd
 set noshowmode
